@@ -22,7 +22,7 @@ save_data = true; % Save the data or just quickly visualize
 plot_data = true; % Show data after each analysis
 start_slice = 201; % The first reference atlas slice that will be shown
 slice_thickness = 100; % In µm, used to predict the next most likely atlas slice and to figure out if any slices are missing
-new_filename = 'Han test.txt';
+new_filename = 'Whole_Brain_HAN.txt';
 level = 4;
 min_cells = 100;
 
@@ -100,5 +100,6 @@ HAN_show_whole_brain(new_filename,...
     'min cells', min_cells);
 
 % Show some plots
-data = HAN_make_plots(whole_brain_file, 'level', 5, 'min cells', 100);
+
+data = HAN_make_plots(new_filename, 'level', 5, 'min cells', 100);
     
