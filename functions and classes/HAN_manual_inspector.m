@@ -28,9 +28,9 @@ undo = []; undo{1} = [nan, nan]; % Removed cells in order to undo
 undo_color = []; undo_color{1} = [nan nan nan]; % To sto
 undo_all_data = []; undo_all_data{1} = [nan nan nan nan nan nan];
 
-% GLOBAL output reference
+% Other Global data
 output_reference = [];
-
+training_data = []
 
 % Deal with input arguments
 edited = false;
