@@ -102,7 +102,7 @@ hAxis.Position(1) = 0.01;
 legend;
 hLegend = findobj(gcf, 'Type', 'Legend');
 hLegend.Color = [1 1 1];
-hLegend.Position(1) = 0.8;
+hLegend.Position(1) = 0.7;
 hLegend.Position(2) = max([hLegend.Position(2), 0.1]);
 
 % Well, apparently we made it through the end
